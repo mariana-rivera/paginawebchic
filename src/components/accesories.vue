@@ -68,8 +68,7 @@
       <v-img 
       src="https://www.forever21.com/images/default_330/00399406-01.jpg"
      />
-     <v-card-text>
-Faux Turquoise Hoop Earrings<br> $9.99</v-card-text>
+     <v-card-text>Faux Turquoise Hoop Earrings<br> $9.99</v-card-text>
       </v-card>
       </v-col>
 		</v-col>
