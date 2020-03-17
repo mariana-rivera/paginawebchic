@@ -29,48 +29,13 @@
       <v-img 
       src="https://www.forever21.com/images/default_330/00395683-01.jpg"
      />
+    
+    <router-link to="/dialog">
+     
      <v-card-text>Buckled Western Ankle Boots<br> $18.99</v-card-text>
       <div class="text-center">
-    <v-dialog
-      v-model="dialog"
-      width="500"
-    >
-      <template v-slot:activator="{ on }">
-        <v-btn
-          color="red lighten-2"
-          dark
-          v-on="on"
-        >
-          Select
-        </v-btn>
-      </template>
-
-      <v-card>
-        <v-card-title
-          class="headline grey lighten-2"
-          primary-title
-        >
-          Privacy Policy
-        </v-card-title>
-
-        <v-card-text>
-          THIS ITEM IS SOLD OUT
-        </v-card-text>
-
-        <v-divider></v-divider>
-
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn
-            color="primary"
-            text
-            @click="dialog = false"
-          >
-            I accept
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
+    </router-link>
+ 
   </div>
       </v-card>
       </v-col>
@@ -123,17 +88,7 @@
       </v-card>
       </v-col>
 		</v-col>
-	</v-row>		
+	    </v-row>		
  </v-container>
 </div>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        dialog: false,
-      }
-    },
-  }
-</script>

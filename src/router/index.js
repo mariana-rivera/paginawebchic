@@ -6,6 +6,8 @@ import Accesories from '@/components/accesories.vue'
 import PlusSize from '@/components/plussize.vue'
 import Sales from '@/components/sales.vue'
 import Form from '@/components/form.vue'
+import Dialog from '@/components/dialog.vue'
+
 
 
 
@@ -47,7 +49,15 @@ const routes = [
     path:'/form',
     name:'Form',
     component :Form
+  },
+
+  {
+    path:'/dialog',
+    name:'Dialog',
+    component :Dialog
   }
+
+  
 ]
 
 
