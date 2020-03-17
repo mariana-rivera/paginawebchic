@@ -19,12 +19,22 @@
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
+      <v-btn icon>
+         <router-link to="/form">
+        <v-icon>mdi-shopping</v-icon>
+         </router-link>
+      </v-btn>
+      
 
     </v-app-bar>
+    
+      <h1 class="red--text text--darken-3"> C H I C </h1>
+      
   </div>
    
     <router-view />
   </div>
+   
 </template>
 
 <script>

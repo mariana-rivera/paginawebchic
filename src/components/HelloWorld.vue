@@ -1,11 +1,7 @@
 <template>
   <div id="app">
     <v-app id="inspire">
-    <v-row>
-      <v-col cols="12" class="d-flex justify-center">
-      <h1 class="display-2 BLACK red--text text--darken-3"> C H I C </h1>
-      </v-col>
-    </v-row>
+  
 
     <v-row >
       <v-col cols="12" class="d-flex justify-center">
@@ -67,8 +63,6 @@ export default {
     
   }),
 };
-
-
 
 </script>
      

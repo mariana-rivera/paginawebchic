@@ -5,8 +5,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import Accesories from '@/components/accesories.vue'
 import PlusSize from '@/components/plussize.vue'
 import Sales from '@/components/sales.vue'
-
-
+import Form from '@/components/form.vue'
 
 
 
@@ -41,6 +40,13 @@ const routes = [
     path:'/sales',
     name:'Sales',
     component :Sales
+  },
+
+  
+  {
+    path:'/form',
+    name:'Form',
+    component :Form
   }
 ]
 

@@ -30,6 +30,48 @@
       src="https://www.forever21.com/images/default_330/00395683-01.jpg"
      />
      <v-card-text>Buckled Western Ankle Boots<br> $18.99</v-card-text>
+      <div class="text-center">
+    <v-dialog
+      v-model="dialog"
+      width="500"
+    >
+      <template v-slot:activator="{ on }">
+        <v-btn
+          color="red lighten-2"
+          dark
+          v-on="on"
+        >
+          Select
+        </v-btn>
+      </template>
+
+      <v-card>
+        <v-card-title
+          class="headline grey lighten-2"
+          primary-title
+        >
+          Privacy Policy
+        </v-card-title>
+
+        <v-card-text>
+          THIS ITEM IS SOLD OUT
+        </v-card-text>
+
+        <v-divider></v-divider>
+
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn
+            color="primary"
+            text
+            @click="dialog = false"
+          >
+            I accept
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+  </div>
       </v-card>
       </v-col>
 
@@ -75,9 +117,9 @@
     > 
       <v-card flat title class="d-flex">
       <v-img 
-      src="https://www.forever21.com/images/1_front_750/00304771-02.jpg"
+      src="https://www.forever21.com/images/1_front_750/00341670-02.jpg"
      />
-     <v-card-text>Plus Size Faux Patent Leather Tube Dress<br> $19.99</v-card-text>
+     <v-card-text>Rolo Chain Bralette<br> $9.99</v-card-text>
       </v-card>
       </v-col>
 		</v-col>
@@ -85,3 +127,13 @@
  </v-container>
 </div>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        dialog: false,
+      }
+    },
+  }
+</script>
