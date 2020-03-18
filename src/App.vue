@@ -6,8 +6,12 @@
       color="red lighten-2"
       
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
+    <v-btn icon>
+      <router-link to="/menu">
+      <v-app-bar-nav-icon>
+         </v-app-bar-nav-icon>
+         </router-link>
+    </v-btn>
       <v-toolbar-title>50% ALL DRESSES</v-toolbar-title>
 
       <v-spacer></v-spacer>

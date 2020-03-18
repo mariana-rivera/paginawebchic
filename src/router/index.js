@@ -7,7 +7,7 @@ import PlusSize from '@/components/plussize.vue'
 import Sales from '@/components/sales.vue'
 import Form from '@/components/form.vue'
 import Dialog from '@/components/dialog.vue'
-
+import Menu from '@/components/menu.vue'
 
 
 
@@ -55,6 +55,12 @@ const routes = [
     path:'/dialog',
     name:'Dialog',
     component :Dialog
+  },
+
+  {
+    path:'/menu',
+    name:'menu',
+    component :Menu
   }
 
   
