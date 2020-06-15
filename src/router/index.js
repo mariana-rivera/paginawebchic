@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Vuex from 'vuex';
 import Women from '@/components/mariana.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 import Accesories from '@/components/accesories.vue'
@@ -7,7 +8,8 @@ import PlusSize from '@/components/plussize.vue'
 import Sales from '@/components/sales.vue'
 import Form from '@/components/form.vue'
 import Dialog from '@/components/dialog.vue'
-import Menu from '@/components/menu.vue'
+import Cart from '@/components/menu.vue'
+import Favoritos from '@/components/favoritos.vue'
 
 
 
@@ -58,9 +60,14 @@ const routes = [
   },
 
   {
-    path:'/menu',
-    name:'menu',
-    component :Menu
+    path:'/cart',
+    name:'Cart',
+    component :Cart
+  },
+  {
+    path:'/favoritos',
+    name:'Favoritos',
+    component: Favoritos
   }
 
   
@@ -74,3 +81,4 @@ const router = new VueRouter({
 })
 
 export default router
+
